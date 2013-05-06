@@ -7,6 +7,6 @@
 
     <uses-library android:name="android.test.runner" />
     </application>
-    <uses-sdk android:minSdkVersion="10" />
+    <uses-sdk android:minSdkVersion="8" />
     <instrumentation android:targetPackage="com.example.android.notepad" android:name="android.test.InstrumentationTestRunner" />
 </manifest> 
