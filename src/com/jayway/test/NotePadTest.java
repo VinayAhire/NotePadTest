@@ -57,6 +57,9 @@ public class NotePadTest extends ActivityInstrumentationTestCase2<NotesList>{
 		 log.info(WeatherConstants.DELIMITER);
 		 log.info(WeatherConstants.TC_NAME + "Vinay");
 		 log.info(WeatherConstants.TEXT_NO_PARAMETERS);
+		 
+		 System.out.println("Test Add Note Started.");
+		 
 		 try{
 		solo.clickOnMenuItem("Add note");
 		//Assert that NoteEditor activity is opened
@@ -91,7 +94,7 @@ public class NotePadTest extends ActivityInstrumentationTestCase2<NotesList>{
 				rep.createHtmlReport();
 		}
 
-		
+		 System.out.println("Test Add Note Ended.");
 	}
 	
 	/*public void testEditNote() throws Exception {
